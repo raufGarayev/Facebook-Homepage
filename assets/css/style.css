@@ -250,8 +250,23 @@ border: none;
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    width: 100%;
+    box-shadow: 10px #ededed;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.news-img {
+    width: 100%;
+}
+
+#news-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 55%;
-    box-shadow: 10px 10px 10px #ededed;
+    box-shadow: 10px #ededed;
     margin-top: 30px;
     border-radius: 10px;
 }

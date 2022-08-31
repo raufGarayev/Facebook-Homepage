@@ -1,0 +1,30 @@
+[
+    {
+        "paylashan_shexsin_adi" : "IT Brains Academy",
+        "statusun_metni" : "Hava bu gun istidir",
+        "like_sayi": 1000,
+        "comment_sayi": 250,
+        "share": 3,
+        "paylashilma_tarixi" : "10h",
+        "image": "https://source.unsplash.com/random/587x350"
+
+    },
+    {
+        "paylashan_shexsin_adi" : "Rauf Qarayev",
+        "statusun_metni" : "Golden derecemizi aldiq",
+        "like_sayi": 350,
+        "comment_sayi": 150,
+        "share": 124,
+        "paylashilma_tarixi" : "1d",
+        "image": "https://source.unsplash.com/random/588x351"
+    },
+    {
+        "paylashan_shexsin_adi" : "IT Brains Academyassa",
+        "statusun_metni" : "Erdogan Bakiya geldi",
+        "like_sayi": 500,
+        "comment_sayi": 150,
+        "share": 9,
+        "paylashilma_tarixi" : "20h",
+        "image": "https://source.unsplash.com/random/589x352"
+    }
+]
