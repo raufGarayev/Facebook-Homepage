@@ -1,6 +1,8 @@
 const myNewsSection = document.getElementById('news-section')
+const friendsBar = document.querySelector('.friends_contacts-chats')
 
-window.onload = bringNews
+window.onload = bringNews() 
+window.onload = bringFriends()
 
 async function bringNews() {
     const theApi = "status.json"
@@ -54,4 +56,24 @@ async function bringNews() {
     }
 
     
+}
+
+async function bringFriends() {
+    const friendsApi = "friends.json"
+
+    try {
+        const friendsReq = await fetch (friendsApi)
+        const friendsRes = await friendsReq.json()
+
+        for(i=0; i<friendsRes.length; i++) {
+            friendsBar.innerHTML += `
+            <div class="friends_pages-chat">
+                <div class="pfp"><img src="${friendsRes[i].pfp}" alt=""></div> <h5>${friendsRes[i].name}</h5>
+            </div>
+            `
+        }
+    }
+    catch(err) {
+
+    }
 }
